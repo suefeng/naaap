@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>NAAAP Convention Concepts</title>	
+	<link rel="stylesheet" type="text/css" href="/js/shadowbox/shadowbox.css">
+	<style type="text/css">
+	body {
+		text-align: center;
+		color: #777777;
+		margin: 0 auto;
+		font-size: 12px;
+		font-family: arial;
+		background-color: #FFFFFF;
+	}
+	a {
+		text-decoration: none;
+		font-size: 14px;
+		color: #F28061;
+	}
+	a:hover {
+		color: #F6C4A5;
+	}
+	h1 {
+		color: #428F82;
+	}
+	h2 {
+		color: #B8CA90;
+	}
+	#wrapper {
+		width: 900px;
+		text-align: left;
+		margin: 0 auto;
+	}
+	</style>
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/shadowbox/shadowbox.js"></script>
+	<script type="text/javascript">
+		Shadowbox.init();
+	</script>
+</head>
+<body>
+<div id="wrapper">
+<h1>NAAAP Convention Web Site Progress Updates</h1>
+<h2>Phase 1: Links and Structures</h2>
+<ul>
+<li><a href="layout1.jpg" rel="shadowbox[phase1]" title="Concept 1">Concept 1</a></li>
+<li><a href="layout2.jpg" rel="shadowbox[phase1]" title="Concept 2">Concept 2</a></li>
+<li><a href="layout3.jpg" rel="shadowbox[phase1]" title="Concept 3">Concept 3</a></li>
+<li><a href="layout4.jpg" rel="shadowbox[phase1]" title="Concept 4">Concept 4</a></li>
+<li><a href="layout5.jpg" rel="shadowbox[phase1]" title="Concept 5">Concept 5</a></li>
+<li><a href="sitemap.jpg" rel="shadowbox[phase1]" title="Site Map">Site Map</a></li>
+</ul>
+Last updated Sunday, October 30<sup>th</sup>
+<h2>Phase 2: Color Exploration</h2>
+<ul>
+
+</ul>
+Last updated Friday, November 18<sup>th</sup>
+</div>
+</body>
+</html>

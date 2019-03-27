@@ -1,0 +1,24 @@
+/*========================================================*/
+/*             CSS for DotNetNuke Containers              */
+/*                  by Evan O'Neil                        */
+/*              http://www.NukeVille.com                  */
+/*========================================================*/
+
+/*========================================================*/
+/*     Container Design Elements                          */
+/*========================================================*/
+
+
+/*-- conatiner title token             --*/ .EON_MI_GRS01Title { font-size: 11px; font-family: tahoma; color: #FFF; font-weight: bold; }
+/*-- container title cell              --*/ .EON_MI_GRS01TitleTD { width:100%; padding: 0;}
+/*-- container actions cell            --*/ .EON_MI_GRS01ActionsTD { width:0%; padding: 0;}
+/*-- container content pane            --*/ .EON_MI_GRS01Content { font-size: 11px; font-family: tahoma; color: #444; padding: 5px 4px 15px 4px;}
+/*-- container Icons cell              --*/ .EON_MI_GRS01Icons { text-align:right; padding: 5px 0 7px 0; border-top: 1px solid #BBBBBB;}
+
+/*-- top center section                --*/ .EON_MI_GRS01T { background: url(01t_Minimalist.gif) bottom left repeat-x; vertical-align:middle; height: 23px; padding: 0 0 1px 0; }
+/*-- top left section                  --*/ .EON_MI_GRS01TL { background: url(01tl_Minimalist.gif) bottom left no-repeat; vertical-align:top; height: 23px; width:10px; padding: 0; }
+/*-- top right section                 --*/ .EON_MI_GRS01TR { background: url(01tr_Minimalist.gif) bottom right no-repeat; height: 23px; width:22px; vertical-align:middle; text-align:left; padding: 0 0 2px 0; }
+
+/*========================================================*/
+
+

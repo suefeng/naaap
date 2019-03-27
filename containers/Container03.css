@@ -1,0 +1,35 @@
+/*========================================================*/
+/*             CSS for DotNetNuke Containers              */
+/*                  by Evan O'Neil                        */
+/*              http://www.NukeVille.com                  */
+/*========================================================*/
+
+/*========================================================*/
+/*     Container Design Elements                          */
+/*========================================================*/
+
+
+/*-- conatiner title token             --*/ .EON_MI_GRS03Title { font-size: 11px; font-family: tahoma; color: #696969; font-weight: bold; }
+/*-- container title cell              --*/ .EON_MI_GRS03TitleTD { width:100%; padding: 0;}
+/*-- container actions cell            --*/ .EON_MI_GRS03ActionsTD { width:0%; padding: 0;}
+/*-- container content pane            --*/ .EON_MI_GRS03Content { font-size: 11px; font-family: tahoma; color: #444; padding: 5px 0 0 0;}
+/*-- container Icons cell              --*/ .EON_MI_GRS03Icons { text-align:right; padding: 5px 0 7px 0; border-top: 1px solid #BBBBBB;}
+
+/*-- top center section                --*/ .EON_MI_GRS03T { background: url(03t_Minimalist.gif) top left repeat-x; vertical-align:middle; height: 23px; padding: 2px 0 0 0; }
+/*-- top left section                  --*/ .EON_MI_GRS03TL { background: url(03tl_Minimalist.gif) top left no-repeat; vertical-align:top; height: 23px; width:10px; padding: 0; }
+/*-- top right section                 --*/ .EON_MI_GRS03TR { background: url(03tr_Minimalist.gif) top right no-repeat; height: 23px; width:22px; vertical-align:middle; text-align:left; padding: 0 0 0 0; }
+
+/*-- mid center section                --*/ .EON_MI_GRS03M { background: url(03m_Minimalist.gif); vertical-align:top; padding: 0; }
+/*-- mid left section                  --*/ .EON_MI_GRS03ML { background: url(03ml_Minimalist.gif) bottom left repeat-y; vertical-align:top; width:10px; padding: 0; }
+/*-- mid right section                 --*/ .EON_MI_GRS03MR { background: url(03mr_Minimalist.gif) bottom right repeat-y; vertical-align:top; width:10px; padding: 0; }
+
+/*-- bottom center section             --*/ .EON_MI_GRS03B { background: url(03b_Minimalist.gif) bottom left repeat-x; vertical-align:top; height: 17px; padding: 8px 0 0 0; }
+/*-- bottom left section               --*/ .EON_MI_GRS03BL { background: url(03bl_Minimalist.gif) bottom left no-repeat; vertical-align:top; height: 17px; width:10px; padding: 0; }
+/*-- bottom right section              --*/ .EON_MI_GRS03BR { background: url(03br_Minimalist.gif) bottom right no-repeat; vertical-align:top; height: 17px; width:10px; padding: 0; }
+
+/*========================================================*/
+
+
+
+
+

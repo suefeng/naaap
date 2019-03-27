@@ -1,0 +1,146 @@
+/*========================================================*/
+/*         CSS for DotNetNuke Skin - Minimalist           */
+/*                   by Evan O'Neil                       */
+/*             http://www.NukeVille.com                   */
+/*========================================================*/
+
+/*========================================================*/
+/*  Universal                                             */
+/*========================================================*/
+
+/* Style For HTML PAGE                   */ html { height: 100%; }
+/* Style For HTML BODY                   */ #body { margin: 0; background: #FFFFFF; margin: 0 0 0 0; }
+/* Setting Text Throughout the skin      */ table, tr, td {font-family: tahoma; font-size: 11px; margin: 0;}
+                                            p {font-family: tahoma; font-size: 11px;}
+
+/*========================================================*/
+/*  Design Elements                                       */
+/*========================================================*/
+
+/*-- width setting on skins        --*/ .StandardWidth { width:960px; }
+/*-- 100 percent height where req  --*/ .FullHeight { height:100%; }
+/*-- 100 percent width where req   --*/ .FullWidth { width:100%; }
+/*-- outer table on unboxed skins  --*/ .OuterTable { width:100%; height:100%; background:#FFF; }
+/*-- outer table on boxed skins    --*/ .OuterTableBoxed { width:100%; height:100%; background: url(boxed-bg.gif) repeat top left #dbdbdb; }
+/*-- outer cell on boxed skins     --*/ .OuterTDBoxed { padding:15px 0 15px 0; }
+
+/*-- cell containing content panes --*/ .ContentPanesTD { width:auto; height:100%; vertical-align: top; padding: 0 0 0 0; }
+/*-- dotted background             --*/ .Dotted { background: url(dotted2.gif) repeat top left; }
+/*-- row containing logo area      --*/ .LogoRow { height:1px; padding: 0 10px 0 7px; }
+/*-- cell containing logo          --*/ .LogoTD { width:1px; padding: 0 0 0 0; }
+/*-- row containing breadcrumbs    --*/ .BreadcrumbsRow { height:41px; background: url(bread-bg.gif) repeat top left; padding: 0 0 0 0; }
+/*-- row for space between areas   --*/ .SpaceBar { height:10px; padding: 0 0 0 0; }
+/*-- cell containing breadcrumbs   --*/ .BreadcrumbsTD { height: 41px; width: 100%; background: url(bread-bg-l.gif) no-repeat top left; color:#a1a1a1; vertical-align: middle; padding: 0 20px 0 17px; }
+/*-- cell containing search        --*/ .SearchTD { width:215px; vertical-align: top; text-align: right; height: 41px; background: url(search-bg.gif) no-repeat top right; padding: 10px 7px 0 0; }
+/*-- cell containing privacy       --*/ .PrivacyTD { text-align: left; padding: 0 0 0 0; }
+/*-- cell containing copyright     --*/ .CopyrightTD { text-align: right; padding: 0 0 0 0; }
+
+/*========================================================*/
+/*  Footer Box Elements                                   */
+/*========================================================*/
+
+/*-- row containing footer area    --*/ .FooterRow { height:36px; padding: 0 7px 0 7px; }
+/*-- table within footer - rounded --*/ .FooterTable { height:36px; background: url(footer-bg-grad.gif) #a7a7a7 repeat-x top left; }
+/*-- rounded top-left corner       --*/ .FooterTL { height:5px; background: url(footer-bg-tl.gif) no-repeat top left; }
+/*-- rounded top-right corner      --*/ .FooterTR { height:5px; background: url(footer-bg-tr.gif) no-repeat top right; }
+/*-- rounded bottom left corner    --*/ .FooterBL { height:5px; background: url(footer-bg-bl.gif) no-repeat bottom left; }
+/*-- rounded bottom right corner   --*/ .FooterBR { height:5px; background: url(footer-bg-br.gif) no-repeat bottom right; }
+
+/*========================================================*/
+/*  Outer Box Elements - boxed skins only                 */
+/*========================================================*/
+
+/*-- boxed skins outer box table   --*/ .BoxTable { height:100%; }
+/*-- top left corner               --*/ .BoxTL { width:11px; height:11px; background: url(box-tl.gif) no-repeat bottom left; }
+/*-- top edge                      --*/ .BoxT { height:11px; background: url(box-t.gif) repeat-x bottom left; }
+/*-- top right corner              --*/ .BoxTR { width:11px; height:11px; background: url(box-tr.gif) no-repeat bottom right; }
+/*-- left edge                     --*/ .BoxL { width:11px; background: url(box-l.gif) repeat-y top left; }
+/*-- content area                  --*/ .BoxM { background: #FFF; }
+/*-- right edge                    --*/ .BoxR { width:11px; background: url(box-r.gif) repeat-y top right; }
+/*-- bottom left corner            --*/ .BoxBL { width:11px; height:11px; background: url(box-bl.gif) no-repeat top left; }
+/*-- bottom edge                   --*/ .BoxB { height:11px; background: url(box-b.gif) repeat-x top left; }
+/*-- bottom right corner           --*/ .BoxBR { width:11px; height:11px; background: url(box-br.gif) no-repeat top right; }
+
+/*========================================================*/
+/*  Content Panes                                         */
+/*========================================================*/
+
+/*-- top inside content pane       --*/ .TopPane { width: 100%; padding: 0 7px 0 7px;}
+/*-- top inside content pane 2     --*/ .TopPane2 { width: 100%; padding: 0 7px 0 7px;}
+/*-- left content pane             --*/ .LeftPane { padding: 0 7px 0 7px; width: 50%; }
+/*-- right content pane            --*/ .RightPane { padding: 0 7px 0 7px; width: 50%; }
+/*-- left2 content pane            --*/ .LeftPane2 { padding: 0 7px 0 7px; width: 25%; }
+/*-- content2 pane                 --*/ .ContentPane2 { padding: 0 7px 0 7px; }
+/*-- right2 content pane           --*/ .RightPane2 { padding: 0 7px 0 7px; width: 25%; }
+/*-- bottom inside pane            --*/ .BottomPane { width: 100%; padding: 0 7px 0 7px; }
+/*-- left3 content pane            --*/ .LeftPane3 { padding: 0 7px 0 7px; width: 33%; }
+/*-- content3 pane                 --*/ .ContentPane3 { padding: 0 7px 0 7px; }
+/*-- right3 content pane           --*/ .RightPane3 { padding: 0 7px 0 7px; width: 33%; }
+/*-- bottom2 inside pane           --*/ .BottomPane2 { width: 100%; padding: 0 7px 0 7px; }
+/*-- image content pane 1 horiz    --*/ .ImagePane01 { height:1px; padding: 0 7px 9px 7px; }
+/*-- image content pane 1 vertical --*/ .ImagePane01V { height:1px; padding: 0 7px 0px 7px; }
+/*-- image content pane 2          --*/ .ImagePane02 { height:1px; padding: 9px 7px 0 7px; }
+/*-- image content pane 2 vertical --*/ .ImagePane02V { height:1px; padding: 4px 7px 0 7px; }
+/*-- image content pane 3          --*/ .ImagePane03 { height:1px; padding: 0 7px 9px 7px; }
+/*-- footer content pane           --*/ .FooterPane { width: 100%; height: 26px; padding: 0 7px 0 7px; vertical-align:middle; }
+/*-- panel pane                    --*/ .PanelPane { padding: 0 7px 0 7px; }
+
+/*========================================================*/
+/*  Tokens                                                */
+/*========================================================*/
+
+/*-- login token idle                  --*/ .LOGIN_object, a.LOGIN_object:link, a.LOGIN_object:visited, a.LOGIN_object:active { color: #939393; background:  url(ico-login.gif) no-repeat bottom left;  font-family: tahoma; font-size: 11px; font-weight:bold; text-decoration: none; height:17px; float:right; padding: 2px 0 0 25px; margin: 0 0px 0 16px; }
+/*-- login token hover                 --*/ a.LOGIN_object:hover { background:  url(ico-login-over.gif) no-repeat bottom left; color: #444444; font-family: tahoma; font-weight:bold; font-size: 11px; text-decoration: none; }
+/*-- user token idle                   --*/ .USER_object, a.USER_object:link, a.USER_object:visited, a.USER_object:active { color: #939393; background:  url(ico-register.gif) no-repeat bottom left;  font-family: tahoma; font-size: 11px; font-weight:bold; text-decoration: none; height:17px; float:right; padding: 2px 0 0 25px;  margin: 0 0px 0 16px; }
+/*-- user token hover                  --*/ a.USER_object:hover { background:  url(ico-register-over.gif) no-repeat bottom left; color: #444444; font-family: tahoma; font-weight:bold; font-size: 11px; text-decoration: none; }
+/*-- date token idle                   --*/ .DATE_object, a.DATE_object:link, a.DATE_object:visited, a.DATE_object:active { color: #939393; font-family: tahoma; font-size: 11px; text-decoration: none; }
+/*-- date token hover                  --*/ a.DATE_object:hover { color: #c1c1c1; font-family: tahoma; font-size: 11px; text-decoration: none; }
+/*-- breadcrumbs token idle            --*/ .BREADCRUMBS_object, a.BREADCRUMBS_object:link, a.BREADCRUMBS_object:visited, a.BREADCRUMBS_object:active { color: #8f8f8f; font-family: tahoma; font-size: 11px; text-decoration: none; font-weight:bold;}
+/*-- breadcrumbs token hover           --*/ a.BREADCRUMBS_object:hover { color: #666; font-family: tahoma; font-size: 11px; text-decoration: none; font-weight:bold; }
+/*-- terms privacy and copyright       --*/ .FOOTER_objects { color:#aaa; font-size: 11px; }
+/*-- terms privacy and copyright links --*/ a.FOOTER_objects:link, a.FOOTER_objects:visited, a.FOOTER_objects:active { font-size: 11px; color:#aaa; font-weight:bold; text-decoration:none; }
+/*-- terms privacy and copyright hover --*/ a.FOOTER_objects:hover { font-size: 11px; color:#777; font-weight:bold; text-decoration:none;  }
+/*-- language selector dropdown        --*/ .Language_object { font-family: tahoma; font-size: 11px; text-decoration: none; }
+
+/*========================================================*/
+/*  Text                                                  */
+/*========================================================*/
+
+/*-- most of the text on site          --*/ .normal, .Normal { font-family: tahoma; font-size: 11px; color: #555; }
+/*-- most of the bold text on site     --*/ .NormalBold { font-family: tahoma; font-size: 11px; font-weight: bold; color: #555; }
+/*-- red text on site for errors       --*/ .NormalRed { color: #C50000; font-family: tahoma; font-weight: bold; font-size: 11px; }
+/*-- subheadings - mostly in admin     --*/ .SubHead { font-family: tahoma; font-size: 11px; font-weight: bold; color: #777; padding: 0; }
+/*-- headings - mostly in admin        --*/ .Head { font-size: 11px; color: #777; background: transparent; font-weight: bold; padding: 0;}
+
+/*========================================================*/
+/*  Links                                                 */
+/*========================================================*/
+
+/*-- default links visited and active  --*/ a:link, a:visited, a:active { color: #666; font-family: tahoma; font-weight: bold; font-size: 11px; text-decoration: underline; }
+/*-- default links hover               --*/ a:hover { color: #444; font-family: tahoma; font-size: 11px; text-decoration: underline; }
+/*-- normal  links visited and active  --*/ a.Normal:link, a.Normal:visited { color: #666; font-family: tahoma; font-weight: bold; font-size: 11px; text-decoration: none; }
+/*-- normal  links hover               --*/ a.Normal:hover { color: #444; font-family: tahoma; font-size: 11px;	text-decoration: none; }
+/*-- search button in search form      --*/ .SearchButton { background: transparent; padding: 15px 12px 7px 12px; cursor: hand; font-size:1px; margin: 0 0 0 0;}
+/*-- footer links                      --*/ .Footer_Links, a.Footer_Links:link, a.Footer_Links:visited, a.Footer_Links:active { color: #FFF; font-family: tahoma; font-size: 11px; font-weight:bold; text-decoration: none; }
+/*-- footer links hover                --*/ a.Footer_Links:hover { color: #EEE; font-family: tahoma; font-weight:bold; font-size: 11px; text-decoration: none; }
+
+/*========================================================*/
+/*  Forms                                                 */
+/*========================================================*/
+
+/*-- default form elements      --*/ select, input { font-family: tahoma; font-size: 11px; color: #333; }
+/*-- textbox                    --*/ .NormalTextBox { color: #333; padding-left: 4px; line-height: 12px; font-family: tahoma; font-weight: normal; font-size: 11px; }
+/*-- textbox container          --*/ td.NormalTextBox { padding: 0; margin: 0; background: transparent; visibility: invisible; border: 0; }
+/*-- textbox used for search    --*/ #dnn_dnnSEARCH_txtSearch.NormalTextBox { height:21px; background: transparent; width: 174px; color: #666; padding: 4px 4px 0px 4px; border: 0px solid #FFFFFF; cursor:text;}
+
+/*========================================================*/
+/*  Sub Menus and Module Menus                            */
+/*========================================================*/
+
+/*-- submenu container          --*/ .MainMenu_SubMenu, .ModuleTitle_SubMenu { background: #FFF; padding: 0px; border: 1px dotted #888; z-index: 1000;  cursor: pointer;  cursor: hand; font-weight: normal; filter: none;}
+/*-- submenu items idle         --*/ .MainMenu_MenuItem, .ModuleTitle_MenuItem { background: #919191; color: #FFF; font-family: tahoma; font-size: 11px; font-weight: bold; font-style: normal; padding: 0px 30px 0px 16px; height: 20px; border: 0;}
+/*-- submenu items hover        --*/ .MainMenu_MenuItemSel, .ModuleTitle_MenuItemSel { background: #b5b5b5; color: #FFF; font-family: tahoma; font-size: 11px; font-weight: bold; cursor: pointer; cursor: hand; padding: 0px 30px 0px 16px; height: 20px; border: 0;}
+
+/*==========================================================*/
+/*  End Style Sheet                                         */
+/*==========================================================*/

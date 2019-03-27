@@ -1,0 +1,44 @@
+/*========================================================*/
+/*         CSS for DotNetNuke Skin - Minimalist           */
+/*                   by Evan O'Neil                       */
+/*             http://www.NukeVille.com                   */
+/*========================================================*/
+
+/*========================================================*/
+/*  2 Design Elements                                     */
+/*========================================================*/
+
+.MenuHeight { height:36px; }
+.MenuTD {  background: url(nav-bg.gif) repeat-x top left; padding: 0 10px 0 10px; }
+.MenuLeft { width:12px; background: url(nav-bg-l.gif) no-repeat top left; }
+.MenuRight { width:12px; background: url(nav-bg-r.gif) no-repeat top left; }
+.LoginTD { width: 100%; vertical-align: middle; text-align: right; font-size: 7px; padding: 8px 0 8px 0; }
+.CopyrightRow { height:30px; padding: 0 10px 0 10px; vertical-align: middle; }
+
+/*========================================================*/
+/*     Main Menu and Module Menus                         */
+/*========================================================*/
+
+/*-- box that holds the menu    --*/ .MainMenu_MenuContainer { background: transparent; }
+/*-- bar that holds the menu    --*/ .MainMenu_MenuBar { cursor: pointer; cursor: hand; background: transparent; }
+/*-- submenu container          --*/ .MainMenu_SubMenu, .ModuleTitle_SubMenu { margin: 1px 0 0 -2; }
+/*-- menuitems idle             --*/ .MainMenu_Idle TD { color: #FFF; background: url(nav-bg.gif) repeat-x top center transparent; font-size: 8pt; padding: 12px 0px 11px 0px; font-weight: bold; }
+/*-- menuitems over             --*/ .MainMenu_Selected TD { color: #FFF; background: url(nav-bg.gif) repeat-x top center transparent; font-size: 8pt; padding: 12px 0px 11px 0px; font-weight: bold; }
+/*-- menuitems active           --*/ .MainMenu_Active TD, .MainMenu_BreadcrumbActive TD { color: #242424; background: url(nav-active.gif) repeat-x top center transparent; font-size: 8pt; padding: 14px 0px 9px 0px; font-weight: bold; }
+/*-- left seperator idle        --*/ .MainMenu_LeftIdle { background: transparent; width:5px; height: 36px; }
+/*-- left seperator active      --*/ .MainMenu_LeftActive { background: url(nav-active-l.gif) no-repeat top right transparent; width:5px; height: 36px; }
+/*-- right seperator idle       --*/ .MainMenu_RightIdle { background: transparent; width:5px; height: 36px; }
+/*-- right seperator active     --*/ .MainMenu_RightActive { background: url(nav-active-r.gif) no-repeat top right transparent; width:5px; height: 36px; }
+/*-- middle seperator           --*/ .MainMenu_Seperator { background: transparent; width:1px; height: 36px; }
+/*-- not needed - main menu     --*/ .MainMenu_MenuArrow, .MainMenu_RootMenuArrow, .MainMenu_MenuIcon  { display: none; }
+/*-- module menu continer       --*/ .ModuleTitle_MenuContainer { color: #2c2c2c; }
+/*-- module menu bar            --*/ .ModuleTitle_MenuBar { cursor: pointer; cursor: hand;}
+/*-- module menu padding        --*/ .ModuleTitle_MenuItem, .ModuleTitle_MenuItemSel { padding: 0 15px 0 10px; }
+/*-- not needed - module menu   --*/ .MainMenuSeperator, .ModuleTitle_MenuArrow, .ModuleTitle_RootMenuArrow { display: none; }
+									 .ModuleTitle_MenuIcon { background: #FFF; border: 0px; border-bottom: 1px dotted #999; width:0px; height: 20px; padding: 0 0 0 0; margin: 0 0 0 0; font-size: 0px; }
+									 .ModuleTitle_MenuIcon IMG { margin: 0 10px 0 10px; }
+/*-- removing seperator borders --*/ .MainMenu_MenuBreak { border-top-style: none; border-right-style: none;	border-left-style: none; border-bottom-style: none; background:transparent;  vertical-align:top;}
+
+/*==========================================================*/
+/*  End Style Sheet                                         */
+/*==========================================================*/
